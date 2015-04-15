@@ -20,7 +20,7 @@
 
 <c:url value="${bannerMainImage.node.url}" var="bannerMainImageURL"/>
 <c:url value="${bannerLogo.node.url}" var="bannerLogoURL"/>
-
+<!--test-->
 
 <div id="banner">
   <a href="<c:url value="${url.base}${renderContext.site.path}/ahrc-home/media-room/faqs-about-the-commission.html"/>">

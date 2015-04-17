@@ -22,7 +22,7 @@
 <c:url value="${bannerLogo.node.url}" var="bannerLogoURL"/>
 
 <div id="banner">
-  <a href="<c:url value="${url.base}${renderContext.site.path}/ahrc-home/media-room/faqs-about-the-commission.html"/>">
+  <a title="Something" href="<c:url value="${url.base}${renderContext.site.path}/ahrc-home/media-room/faqs-about-the-commission.html"/>">
     <img class="img-responsive" id="bannerLogo" alt="Alberta Human Rights and Citizenship Commission" src="${bannerLogoURL}">
   </a>
   <img class="img-responsive" id="bannerMessage" alt="Fostering Equality and Reducing Discrimination" src="${bannerMainImageURL}"> 
